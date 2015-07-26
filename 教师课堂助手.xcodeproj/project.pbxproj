@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		389AA2FA1AD26FE60030630C /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 389AA2F91AD26FE60030630C /* DataManager.m */; };
+		38C88D5A1ACE341000531CC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38C88D531ACE341000531CC9 /* LaunchScreen.xib */; };
+		38C88D5B1ACE341000531CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C88D551ACE341000531CC9 /* Main.storyboard */; };
+		38C88D5E1ACE344500531CC9 /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C88D5D1ACE344500531CC9 /* NetworkService.m */; };
+		38C88D611ACE34E400531CC9 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C88D601ACE34E400531CC9 /* AsyncSocket.m */; };
+		38CAB3BA1AC56EA700450AF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CAB3B91AC56EA700450AF5 /* main.m */; };
+		38CAB3BD1AC56EA700450AF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CAB3BC1AC56EA700450AF5 /* AppDelegate.m */; };
+		38CAB3C31AC56EA700450AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB3C11AC56EA700450AF5 /* Main.storyboard */; };
+		38CAB3C51AC56EA700450AF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB3C41AC56EA700450AF5 /* Images.xcassets */; };
+		38CAB3C81AC56EA700450AF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB3C61AC56EA700450AF5 /* LaunchScreen.xib */; };
+		38CAB3D41AC56EA800450AF5 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CAB3D31AC56EA800450AF5 /* ______Tests.m */; };
+		38CAB3DF1AC56F2900450AF5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CAB3DE1AC56F2900450AF5 /* MainViewController.m */; };
+		38CC85C91AC680BB0056F3C0 /* QRCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CC85C81AC680BB0056F3C0 /* QRCodeScanViewController.m */; };
+		38DA5A1B1ACA4FC100F8CA7D /* IPListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DCF93F1AC943E00095F73A /* IPListViewController.m */; };
+		38DC1EA41ACB0863007AEECB /* WhiteboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC1EA31ACB0863007AEECB /* WhiteboardViewController.m */; };
+		38DC1EA71ACB08AC007AEECB /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC1EA61ACB08AC007AEECB /* DrawView.m */; };
+		38DC1EAA1ACB0B2E007AEECB /* DrawItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC1EA91ACB0B2E007AEECB /* DrawItem.m */; };
+		38DED3E31ACF056600347F70 /* PPTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DED3E21ACF056600347F70 /* PPTViewController.m */; };
+		38E1F32C1AC7EC0D00FCED79 /* ConnectUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E1F32B1AC7EC0D00FCED79 /* ConnectUIViewController.m */; };
+		38E1F33B1AC7FBD800FCED79 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38E1F33A1AC7FBD800FCED79 /* beep.mp3 */; };
+		38EF970A1AFCF27700DDE230 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EF97091AFCF27700DDE230 /* HelpViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38CAB3CE1AC56EA800450AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38CAB3AC1AC56EA700450AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38CAB3B31AC56EA700450AF5;
+			remoteInfo = "教师课堂助手";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		389AA2F81AD26FE60030630C /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		389AA2F91AD26FE60030630C /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		38AB8B2D1AC8415600B74292 /* SetIPDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetIPDelegate.h; sourceTree = "<group>"; };
+		38C88D541ACE341000531CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		38C88D561ACE341000531CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		38C88D581ACE341000531CC9 /* NetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
+		38C88D5D1ACE344500531CC9 /* NetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkService.m; sourceTree = "<group>"; };
+		38C88D5F1ACE34E400531CC9 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		38C88D601ACE34E400531CC9 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		38CAB3B41AC56EA700450AF5 /* 教师课堂助手.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "教师课堂助手.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CAB3B81AC56EA700450AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CAB3B91AC56EA700450AF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38CAB3BB1AC56EA700450AF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38CAB3BC1AC56EA700450AF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38CAB3C21AC56EA700450AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38CAB3C41AC56EA700450AF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38CAB3C71AC56EA700450AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		38CAB3CD1AC56EA800450AF5 /* 教师课堂助手Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "教师课堂助手Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CAB3D21AC56EA800450AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CAB3D31AC56EA800450AF5 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		38CAB3DD1AC56F2900450AF5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		38CAB3DE1AC56F2900450AF5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		38CC85C71AC680BB0056F3C0 /* QRCodeScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeScanViewController.h; sourceTree = "<group>"; };
+		38CC85C81AC680BB0056F3C0 /* QRCodeScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanViewController.m; sourceTree = "<group>"; };
+		38DC1EA21ACB0863007AEECB /* WhiteboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteboardViewController.h; sourceTree = "<group>"; };
+		38DC1EA31ACB0863007AEECB /* WhiteboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteboardViewController.m; sourceTree = "<group>"; };
+		38DC1EA51ACB08AC007AEECB /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		38DC1EA61ACB08AC007AEECB /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		38DC1EA81ACB0B2E007AEECB /* DrawItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawItem.h; sourceTree = "<group>"; wrapsLines = 1; };
+		38DC1EA91ACB0B2E007AEECB /* DrawItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawItem.m; sourceTree = "<group>"; };
+		38DCF93E1AC943E00095F73A /* IPListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPListViewController.h; sourceTree = "<group>"; };
+		38DCF93F1AC943E00095F73A /* IPListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPListViewController.m; sourceTree = "<group>"; };
+		38DED3E11ACF056600347F70 /* PPTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTViewController.h; sourceTree = "<group>"; };
+		38DED3E21ACF056600347F70 /* PPTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTViewController.m; sourceTree = "<group>"; };
+		38E1F32A1AC7EC0D00FCED79 /* ConnectUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectUIViewController.h; sourceTree = "<group>"; };
+		38E1F32B1AC7EC0D00FCED79 /* ConnectUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectUIViewController.m; sourceTree = "<group>"; };
+		38E1F33A1AC7FBD800FCED79 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		38EF97081AFCF27700DDE230 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		38EF97091AFCF27700DDE230 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38CAB3B11AC56EA700450AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CAB3CA1AC56EA800450AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38C88D521ACE341000531CC9 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				38C88D531ACE341000531CC9 /* LaunchScreen.xib */,
+				38C88D551ACE341000531CC9 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		38CAB3AB1AC56EA700450AF5 = {
+			isa = PBXGroup;
+			children = (
+				38CAB3B61AC56EA700450AF5 /* 教师课堂助手 */,
+				38CAB3D01AC56EA800450AF5 /* 教师课堂助手Tests */,
+				38CAB3B51AC56EA700450AF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38CAB3B51AC56EA700450AF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38CAB3B41AC56EA700450AF5 /* 教师课堂助手.app */,
+				38CAB3CD1AC56EA800450AF5 /* 教师课堂助手Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38CAB3B61AC56EA700450AF5 /* 教师课堂助手 */ = {
+			isa = PBXGroup;
+			children = (
+				38C88D521ACE341000531CC9 /* Base.lproj */,
+				38CAB3BB1AC56EA700450AF5 /* AppDelegate.h */,
+				38CAB3BC1AC56EA700450AF5 /* AppDelegate.m */,
+				38CAB3DD1AC56F2900450AF5 /* MainViewController.h */,
+				38CAB3DE1AC56F2900450AF5 /* MainViewController.m */,
+				38E1F33A1AC7FBD800FCED79 /* beep.mp3 */,
+				38CAB3C11AC56EA700450AF5 /* Main.storyboard */,
+				38EF97081AFCF27700DDE230 /* HelpViewController.h */,
+				38EF97091AFCF27700DDE230 /* HelpViewController.m */,
+				38DED3E11ACF056600347F70 /* PPTViewController.h */,
+				38DED3E21ACF056600347F70 /* PPTViewController.m */,
+				38DC1EA21ACB0863007AEECB /* WhiteboardViewController.h */,
+				38DC1EA31ACB0863007AEECB /* WhiteboardViewController.m */,
+				38DC1EA51ACB08AC007AEECB /* DrawView.h */,
+				38DC1EA61ACB08AC007AEECB /* DrawView.m */,
+				38DC1EA81ACB0B2E007AEECB /* DrawItem.h */,
+				38DC1EA91ACB0B2E007AEECB /* DrawItem.m */,
+				38E1F32A1AC7EC0D00FCED79 /* ConnectUIViewController.h */,
+				38E1F32B1AC7EC0D00FCED79 /* ConnectUIViewController.m */,
+				389AA2F81AD26FE60030630C /* DataManager.h */,
+				389AA2F91AD26FE60030630C /* DataManager.m */,
+				38DCF93E1AC943E00095F73A /* IPListViewController.h */,
+				38DCF93F1AC943E00095F73A /* IPListViewController.m */,
+				38CC85C71AC680BB0056F3C0 /* QRCodeScanViewController.h */,
+				38CC85C81AC680BB0056F3C0 /* QRCodeScanViewController.m */,
+				38AB8B2D1AC8415600B74292 /* SetIPDelegate.h */,
+				38C88D581ACE341000531CC9 /* NetworkService.h */,
+				38C88D5D1ACE344500531CC9 /* NetworkService.m */,
+				38C88D5F1ACE34E400531CC9 /* AsyncSocket.h */,
+				38C88D601ACE34E400531CC9 /* AsyncSocket.m */,
+				38CAB3C41AC56EA700450AF5 /* Images.xcassets */,
+				38CAB3C61AC56EA700450AF5 /* LaunchScreen.xib */,
+				38CAB3B71AC56EA700450AF5 /* Supporting Files */,
+			);
+			path = "教师课堂助手";
+			sourceTree = "<group>";
+		};
+		38CAB3B71AC56EA700450AF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38CAB3B81AC56EA700450AF5 /* Info.plist */,
+				38CAB3B91AC56EA700450AF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38CAB3D01AC56EA800450AF5 /* 教师课堂助手Tests */ = {
+			isa = PBXGroup;
+			children = (
+				38CAB3D31AC56EA800450AF5 /* ______Tests.m */,
+				38CAB3D11AC56EA800450AF5 /* Supporting Files */,
+			);
+			path = "教师课堂助手Tests";
+			sourceTree = "<group>";
+		};
+		38CAB3D11AC56EA800450AF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38CAB3D21AC56EA800450AF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38CAB3B31AC56EA700450AF5 /* 教师课堂助手 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CAB3D71AC56EA800450AF5 /* Build configuration list for PBXNativeTarget "教师课堂助手" */;
+			buildPhases = (
+				38CAB3B01AC56EA700450AF5 /* Sources */,
+				38CAB3B11AC56EA700450AF5 /* Frameworks */,
+				38CAB3B21AC56EA700450AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "教师课堂助手";
+			productName = "教师课堂助手";
+			productReference = 38CAB3B41AC56EA700450AF5 /* 教师课堂助手.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38CAB3CC1AC56EA800450AF5 /* 教师课堂助手Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CAB3DA1AC56EA800450AF5 /* Build configuration list for PBXNativeTarget "教师课堂助手Tests" */;
+			buildPhases = (
+				38CAB3C91AC56EA800450AF5 /* Sources */,
+				38CAB3CA1AC56EA800450AF5 /* Frameworks */,
+				38CAB3CB1AC56EA800450AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CAB3CF1AC56EA800450AF5 /* PBXTargetDependency */,
+			);
+			name = "教师课堂助手Tests";
+			productName = "教师课堂助手Tests";
+			productReference = 38CAB3CD1AC56EA800450AF5 /* 教师课堂助手Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38CAB3AC1AC56EA700450AF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "罗玄";
+				TargetAttributes = {
+					38CAB3B31AC56EA700450AF5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					38CAB3CC1AC56EA800450AF5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 38CAB3B31AC56EA700450AF5;
+					};
+				};
+			};
+			buildConfigurationList = 38CAB3AF1AC56EA700450AF5 /* Build configuration list for PBXProject "教师课堂助手" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38CAB3AB1AC56EA700450AF5;
+			productRefGroup = 38CAB3B51AC56EA700450AF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38CAB3B31AC56EA700450AF5 /* 教师课堂助手 */,
+				38CAB3CC1AC56EA800450AF5 /* 教师课堂助手Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38CAB3B21AC56EA700450AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C88D5A1ACE341000531CC9 /* LaunchScreen.xib in Resources */,
+				38CAB3C31AC56EA700450AF5 /* Main.storyboard in Resources */,
+				38CAB3C81AC56EA700450AF5 /* LaunchScreen.xib in Resources */,
+				38C88D5B1ACE341000531CC9 /* Main.storyboard in Resources */,
+				38E1F33B1AC7FBD800FCED79 /* beep.mp3 in Resources */,
+				38CAB3C51AC56EA700450AF5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CAB3CB1AC56EA800450AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38CAB3B01AC56EA700450AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CAB3BD1AC56EA700450AF5 /* AppDelegate.m in Sources */,
+				38DA5A1B1ACA4FC100F8CA7D /* IPListViewController.m in Sources */,
+				38DC1EA41ACB0863007AEECB /* WhiteboardViewController.m in Sources */,
+				38CAB3DF1AC56F2900450AF5 /* MainViewController.m in Sources */,
+				38CAB3BA1AC56EA700450AF5 /* main.m in Sources */,
+				38CC85C91AC680BB0056F3C0 /* QRCodeScanViewController.m in Sources */,
+				389AA2FA1AD26FE60030630C /* DataManager.m in Sources */,
+				38DC1EAA1ACB0B2E007AEECB /* DrawItem.m in Sources */,
+				38C88D611ACE34E400531CC9 /* AsyncSocket.m in Sources */,
+				38EF970A1AFCF27700DDE230 /* HelpViewController.m in Sources */,
+				38DC1EA71ACB08AC007AEECB /* DrawView.m in Sources */,
+				38DED3E31ACF056600347F70 /* PPTViewController.m in Sources */,
+				38C88D5E1ACE344500531CC9 /* NetworkService.m in Sources */,
+				38E1F32C1AC7EC0D00FCED79 /* ConnectUIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CAB3C91AC56EA800450AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CAB3D41AC56EA800450AF5 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38CAB3CF1AC56EA800450AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38CAB3B31AC56EA700450AF5 /* 教师课堂助手 */;
+			targetProxy = 38CAB3CE1AC56EA800450AF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38C88D531ACE341000531CC9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C88D541ACE341000531CC9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		38C88D551ACE341000531CC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C88D561ACE341000531CC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38CAB3C11AC56EA700450AF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CAB3C21AC56EA700450AF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38CAB3C61AC56EA700450AF5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CAB3C71AC56EA700450AF5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38CAB3D51AC56EA800450AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38CAB3D61AC56EA800450AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38CAB3D81AC56EA800450AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"./zxing/iphone/ZXingWidget/Classes/**",
+					./zxing/cpp/core/src,
+				);
+				INFOPLIST_FILE = "教师课堂助手/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "教师课堂助手";
+			};
+			name = Debug;
+		};
+		38CAB3D91AC56EA800450AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"./zxing/iphone/ZXingWidget/Classes/**",
+					./zxing/cpp/core/src,
+				);
+				INFOPLIST_FILE = "教师课堂助手/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "教师课堂助手";
+			};
+			name = Release;
+		};
+		38CAB3DB1AC56EA800450AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "教师课堂助手Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "教师课堂助手Tests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/教师课堂助手.app/教师课堂助手";
+			};
+			name = Debug;
+		};
+		38CAB3DC1AC56EA800450AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "教师课堂助手Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "教师课堂助手Tests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/教师课堂助手.app/教师课堂助手";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38CAB3AF1AC56EA700450AF5 /* Build configuration list for PBXProject "教师课堂助手" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CAB3D51AC56EA800450AF5 /* Debug */,
+				38CAB3D61AC56EA800450AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CAB3D71AC56EA800450AF5 /* Build configuration list for PBXNativeTarget "教师课堂助手" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CAB3D81AC56EA800450AF5 /* Debug */,
+				38CAB3D91AC56EA800450AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CAB3DA1AC56EA800450AF5 /* Build configuration list for PBXNativeTarget "教师课堂助手Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CAB3DB1AC56EA800450AF5 /* Debug */,
+				38CAB3DC1AC56EA800450AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38CAB3AC1AC56EA700450AF5 /* Project object */;
+}
